@@ -28,8 +28,11 @@ body{
     padding: 10px;
 }
 .logo{
-    margin-left: 35px;
-    font-size: large;
+    margin-left: 100px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
 }
 .container-2{
     background-color: #1F2937;
@@ -57,11 +60,11 @@ body{
     background-color:orangered;
     color: #FFFFFF;
     padding: 7px 1em;
-     border-radius: 8px;
-     width: 120px;
-     font-size: larger;
-     border: none;
-     margin-right: 400px;
+    border-radius: 8px;
+    width: 120px;
+    font-size: larger;
+    border: none;
+    margin-right: 400px;
 }
 .header-image{
     width: 450px;
@@ -121,22 +124,40 @@ body{
 }
 .container-4{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border: 5px solid black;
-}
-.left{
-   
+    text-align: left;
+    margin: 100px 200px 100px 200px;
+    padding: 40px;
     background-color: orangered;
     color: #FFFFFF;
-    padding: 50px;
-    text-align: left;
+    border-radius: 10px;
 }
-.left .text{
-    font-size: 10px;
+.signup-text{
+    font-size: larger;
+    margin: auto;
 }
-.left strong{
+.signup-text strong{
+    font-size:25px;
     font-weight: bolder;
-    font-size:40px ;
+}
+.signup-text div{
+    color: #f8f8f8;
+}
+.container-4 button{
+    padding: 7px 1em;
+    margin: auto;
+    width:fit-content;
+    height: fit-content;
+    background-color:orangered;
+    color: #FFFFFF;
+    font-size: larger;
+    border-radius: 8px;
+    border: 2px solid white;
+    font-weight: bolder;
+}
+.container-5{
+    align-items: center;
+    background-color: #1F2937;
+    padding: 15px 0;
+    color: #FFFFFF;
+    font-size: larger;
 }
